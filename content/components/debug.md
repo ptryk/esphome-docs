@@ -40,11 +40,8 @@ sensor:
       name: "Free PSRAM"
     cpu_frequency:
       name: "CPU Frequency"
-
-# Logger must be configured
-logger:
-  level: debug
 ```
+Additionally the code above will be visible in the {{< docref "web_server/" >}} component eg in version 3 under a tab below "Sensors and Control" it is shown information under the tab "Diagnostics"
 
 ## Text Sensor
 
@@ -98,3 +95,4 @@ logger:
 - {{< docref "logger/" >}}
 - {{< docref "/guides/troubleshooting" >}} - Troubleshooting guide for debugging crashes and boot failures
 - {{< apiref "debug/debug_component.h" "debug/debug_component.h" >}}
+- {{< docref "web_server/" >}} 
